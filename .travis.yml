@@ -39,4 +39,7 @@ android:
   - android-sdk-license-.+
   - google-gdk-license-.+
 
-script: bash test1.sh && bash test2.sh && bash test3.sh
+script: 
+bash test1.sh && \
+bash test2.sh && \
+bash test3.sh
