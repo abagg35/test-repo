@@ -31,8 +31,8 @@ android:
   - android-$ANDROID_API
   - android-$EMULATOR_API
   - extra-android-m2repository # For design library
-  - sys-img-armeabi-v7a-addon-google_apis-google-$ANDROID_API
-  - sys-img-armeabi-v7a-addon-google_apis-google-$EMULATOR_API
+  - extra-android-support
+  - sys-img-armeabi-v7a-android-$EMULATOR_API
 
   licenses:
   - android-sdk-preview-license-.+
