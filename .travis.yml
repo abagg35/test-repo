@@ -40,6 +40,6 @@ android:
   - google-gdk-license-.+
 
 script: 
-- bash test1.sh &&
-  bash test2.sh &&
-  bash test3.sh
+- bash test1.sh --stacktrace &&
+  bash test2.sh --stacktrace &&
+  bash test3.sh --stacktrace
